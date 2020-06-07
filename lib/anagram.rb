@@ -17,8 +17,8 @@ class Anagram
 
         #iterate over array of the words
         #compare those words to one in anagram
-        array.select do |something|
-            (@word.split("").sort) == (something.split("").sort)
+        array.select do |a|
+            (@word.split("").sort) == (a.split("").sort)
         end
     end
 end
